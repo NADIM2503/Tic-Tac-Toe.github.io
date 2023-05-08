@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    color:mediumorchid;
+    background:linear-gradient(to right, rgb(95, 5, 164), rgb(213, 113, 175));
+    font-size: xx-large;
+    font-weight: 700;
+    font-family:cursive;
+    text-align: center;
+    min-height: 670px;
+}
+
+table td {
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.texts{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    font-family: cursive;
+    font-size: large;
+    margin: 20px;
+    padding: 10px;
+}
+
+button:hover{
+color: rgb(162, 57, 166);
+background-color: white;
+transition: 0.4s;
+font-size: x-large;
+}
